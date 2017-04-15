@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="WBM-82-bth">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="OHO-RG-0XK">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Explore-->
         <scene sceneID="e4i-mc-gDw">
             <objects>
-                <viewController title="Explore" id="WBM-82-bth" customClass="SecondViewController" customModule="Shapes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Explore" id="WBM-82-bth" customClass="ExploreViewController" customModule="Shapes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ham-Xp-pqt"/>
                         <viewControllerLayoutGuide type="bottom" id="Mdo-UF-Xiw"/>
@@ -43,14 +43,31 @@
                             <constraint firstItem="3qI-ij-B3j" firstAttribute="top" secondItem="0SP-kc-isg" secondAttribute="bottom" constant="8" symbolic="YES" id="y0a-g8-11e"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="C6O-wD-cnC"/>
+                    <tabBarItem key="tabBarItem" title="Explore" image="Explore" id="C6O-wD-cnC"/>
+                    <navigationItem key="navigationItem" id="eRi-gr-tfu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="15u-PQ-JQ9" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="1134" y="388"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZEO-oE-pct">
+            <objects>
+                <navigationController id="OHO-RG-0XK" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cMG-9j-2Nx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WBM-82-bth" kind="relationship" relationship="rootViewController" id="2aL-kh-iR1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YXU-Oo-vDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="346" y="389"/>
         </scene>
     </scenes>
     <resources>
-        <image name="second" width="30" height="30"/>
+        <image name="Explore" width="30" height="30"/>
     </resources>
 </document>
