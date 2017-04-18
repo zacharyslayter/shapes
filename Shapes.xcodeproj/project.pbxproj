@@ -50,6 +50,7 @@
 /* Begin PBXFileReference section */
 		387E50C67B4D36AFFCC7406E /* Pods_Shapes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shapes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACE682EEF4A0D0434AE0887 /* Pods-Shapes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shapes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shapes/Pods-Shapes.release.xcconfig"; sourceTree = "<group>"; };
+		42CB82B1D3F65AFBC12D3998 /* Pods-Shapes.analyze.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shapes.analyze.xcconfig"; path = "Pods/Target Support Files/Pods-Shapes/Pods-Shapes.analyze.xcconfig"; sourceTree = "<group>"; };
 		4CAC5EAFCC4B443D7A17EE47 /* Pods_ShapesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShapesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F7613A84DB7F23F4624EE4 /* Pods-ShapesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesUITests/Pods-ShapesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		591804DE1EA16ED200310104 /* Constants_APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants_APIs.swift; sourceTree = "<group>"; };
@@ -77,9 +78,11 @@
 		591852CC1EA1348300424619 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		591852CE1EA1348E00424619 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		892B7B38848C02F925891640 /* Pods-ShapesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesTests/Pods-ShapesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DCB9AE8B4EF34D254F24F1A /* Pods-ShapesTests.analyze.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesTests.analyze.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesTests/Pods-ShapesTests.analyze.xcconfig"; sourceTree = "<group>"; };
 		9A8A8F8701663C286A06A9D4 /* Pods-ShapesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesUITests/Pods-ShapesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A350A36970C694FABD769130 /* Pods_ShapesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShapesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01165880634DC52A8E0E522 /* Pods-Shapes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shapes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shapes/Pods-Shapes.debug.xcconfig"; sourceTree = "<group>"; };
+		F18D4AB3093CFD61A093C0E4 /* Pods-ShapesUITests.analyze.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesUITests.analyze.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesUITests/Pods-ShapesUITests.analyze.xcconfig"; sourceTree = "<group>"; };
 		F6D6E70EDE2B53EFBA838705 /* Pods-ShapesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesTests/Pods-ShapesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +174,7 @@
 			children = (
 				5918528F1EA10F4800424619 /* AppDelegate.swift */,
 				591852C31EA130BB00424619 /* Constants */,
+				59B491901EA683C600932A5C /* Components */,
 				591804EB1EA17DE500310104 /* Extensions */,
 				591852D11EA136AA00424619 /* Resources */,
 				591852BF1EA12F0D00424619 /* Storyboard */,
@@ -271,6 +275,13 @@
 			name = Components;
 			sourceTree = "<group>";
 		};
+		59B491901EA683C600932A5C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
 		59DA2FB21EA138A100174266 /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +309,9 @@
 				F6D6E70EDE2B53EFBA838705 /* Pods-ShapesTests.release.xcconfig */,
 				54F7613A84DB7F23F4624EE4 /* Pods-ShapesUITests.debug.xcconfig */,
 				9A8A8F8701663C286A06A9D4 /* Pods-ShapesUITests.release.xcconfig */,
+				42CB82B1D3F65AFBC12D3998 /* Pods-Shapes.analyze.xcconfig */,
+				8DCB9AE8B4EF34D254F24F1A /* Pods-ShapesTests.analyze.xcconfig */,
+				F18D4AB3093CFD61A093C0E4 /* Pods-ShapesUITests.analyze.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -315,6 +329,7 @@
 				5918528A1EA10F4800424619 /* Resources */,
 				9FC6D50E91F37CF7F4B3672D /* [CP] Embed Pods Frameworks */,
 				C06D9B6A2A4DBCDB5E34B8D9 /* [CP] Copy Pods Resources */,
+				D028AB88C5110E6D3A19EEF8 /* Tailor */,
 			);
 			buildRules = (
 			);
@@ -458,7 +473,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		53F83E322D26FD9074811584 /* [CP] Embed Pods Frameworks */ = {
@@ -518,7 +533,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9FC6D50E91F37CF7F4B3672D /* [CP] Embed Pods Frameworks */ = {
@@ -548,7 +563,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C06D9B6A2A4DBCDB5E34B8D9 /* [CP] Copy Pods Resources */ = {
@@ -580,6 +595,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShapesUITests/Pods-ShapesUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D028AB88C5110E6D3A19EEF8 /* Tailor */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Tailor;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Analyze\" ]; then\n    if hash tailor 2>/dev/null; then\n        tailor --except=trailing-whitespace Shapes/\n    else\n        echo \"warning: Please install Tailor from https://tailor.sh\"\n    fi\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -836,6 +865,101 @@
 			};
 			name = Release;
 		};
+		59B4918C1EA6745000932A5C /* Analyze */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Analyze;
+		};
+		59B4918D1EA6745000932A5C /* Analyze */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CB82B1D3F65AFBC12D3998 /* Pods-Shapes.analyze.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPYS5PBF55;
+				INFOPLIST_FILE = Shapes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.credera.Shapes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Analyze;
+		};
+		59B4918E1EA6745000932A5C /* Analyze */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCB9AE8B4EF34D254F24F1A /* Pods-ShapesTests.analyze.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HPYS5PBF55;
+				INFOPLIST_FILE = ShapesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.credera.ShapesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shapes.app/Shapes";
+			};
+			name = Analyze;
+		};
+		59B4918F1EA6745000932A5C /* Analyze */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18D4AB3093CFD61A093C0E4 /* Pods-ShapesUITests.analyze.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HPYS5PBF55;
+				INFOPLIST_FILE = ShapesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.credera.ShapesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Shapes;
+			};
+			name = Analyze;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -843,6 +967,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				591852B41EA10F4800424619 /* Debug */,
+				59B4918C1EA6745000932A5C /* Analyze */,
 				591852B51EA10F4800424619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -852,6 +977,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				591852B71EA10F4800424619 /* Debug */,
+				59B4918D1EA6745000932A5C /* Analyze */,
 				591852B81EA10F4800424619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -861,6 +987,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				591852BA1EA10F4800424619 /* Debug */,
+				59B4918E1EA6745000932A5C /* Analyze */,
 				591852BB1EA10F4800424619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -870,6 +997,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				591852BD1EA10F4800424619 /* Debug */,
+				59B4918F1EA6745000932A5C /* Analyze */,
 				591852BE1EA10F4800424619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

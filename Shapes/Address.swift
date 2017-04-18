@@ -11,10 +11,10 @@ import SwiftyJSON
 
 class Address {
     
-    var street : String
-    var city : String
-    var state : String
-    var zip : String
+    var street: String
+    var city: String
+    var state: String
+    var zip: String
     
     init?(json: JSON) {
         if let streetValue = json["street"].string,

@@ -19,12 +19,12 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
         // Initialize the Tab Bar controllers via their respective storyboards
         // The TabBarItems with titles & icons are in each Storyboard's first scene
         
-        let homeVC : UIViewController? = UIStoryboard(name: "Home", bundle: nil).instantiateInitialViewController()
+        let homeVC: UIViewController? = UIStoryboard(name: "Home", bundle: nil).instantiateInitialViewController()
         if homeVC != nil {
             viewControllerArray.append(homeVC!)
         }
         
-        let exploreVC : UIViewController? = UIStoryboard(name: "Explore", bundle: nil).instantiateInitialViewController()
+        let exploreVC: UIViewController? = UIStoryboard(name: "Explore", bundle: nil).instantiateInitialViewController()
         if exploreVC != nil {
             viewControllerArray.append(exploreVC!)
         }
@@ -32,11 +32,11 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
         self.setViewControllers(viewControllerArray, animated: false)
         
         // Default to the Home Tab
-        self.setSelectedTab(Constants.TabBarScreens.Home)
+        self.setSelectedTab(Constants.TabBarScreens.home)
         
     }
     
-    func setSelectedTab(_ tabBarScreen : Constants.TabBarScreens) {
+    func setSelectedTab(_ tabBarScreen: Constants.TabBarScreens) {
         self.selectedIndex = tabBarScreen.rawValue
     }
     

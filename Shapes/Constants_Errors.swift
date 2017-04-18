@@ -10,7 +10,7 @@ import Foundation
 
 extension Constants {
     
-    enum Exceptions : Error {
+    enum Exceptions: Error {
         
         case invalidData
         

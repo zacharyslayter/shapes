@@ -10,20 +10,20 @@ import Foundation
 import SwiftyJSON
 
 class Account {
-    
+
     private let dateFormatter = DateFormatter(format: "yyyy-MM-dd hh:mm:ss")
     
-    var firstName : String
-    var lastName : String
+    var firstName: String
+    var lastName: String
     
-    var address : Address
+    var address: Address
     
-    var email : String
-    var phone : String
+    var email: String
+    var phone: String
     
-    var dob : Date
+    var dob: Date
     
-    var imgURL : URL
+    var imgURL: URL
     
     
     init?(json: JSON) {

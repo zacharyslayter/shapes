@@ -8,18 +8,21 @@
 
 import UIKit
 
-class HomeViewController : UIViewController {
+class HomeViewController: UIViewController {
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        do {
-            try AccountLoginEndpoints.impl.login(username: "Test", password: "Test", onCompletion: {(account) in }, onError: {(error) in })
-        } catch {
-            print("caught exception)")
-        }
+//        self.navigationItem.title = "Shapes"
+//        self.navigationI
+        
+//        do {
+//            try AccountLoginEndpoints.impl.login(username: "Test", password: "Test", onCompletion: { (account) in }, onError: { (error) in })
+//        } catch {
+//            print("caught exception)")
+//        }
     }
     
     override func didReceiveMemoryWarning() {

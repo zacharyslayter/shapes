@@ -18,16 +18,16 @@ protocol AccountLoginProtocol {
     
 }
 
-enum LoginErrors : Error {
+enum LoginErrors: Error {
     case invalidUsername
     case invalidPassword
     case apiError
     case accountInit
 }
 
-class AccountLoginEndpoints : AccountLoginProtocol {
+class AccountLoginEndpoints: AccountLoginProtocol {
     
-    static var impl : AccountLoginProtocol = AccountLoginEndpoints()
+    static var impl: AccountLoginProtocol = AccountLoginEndpoints()
     
     func login(username: String, password: String,
                onCompletion completionHandler: @escaping ((Account) -> Void),
@@ -49,7 +49,7 @@ class AccountLoginEndpoints : AccountLoginProtocol {
         Alamofire.request(url, method: endpoint.METHOD)
             .validate(statusCode: 219..<300)
             .validate(contentType: ["application/json"])
-            .responseJSON(completionHandler: {(response) in
+            .responseJSON(completionHandler: { (response) in
                 // If the validate calls attached to the request above fail,
                 // or if the response we receive is empty,
                 // then this error will be thrown.
@@ -70,7 +70,6 @@ class AccountLoginEndpoints : AccountLoginProtocol {
                 completionHandler(account)
                 
         })
-                          //parameters: endpoint.getParameters(), encoding: ParameterEncodi, headers: nil)
         
     }
     
