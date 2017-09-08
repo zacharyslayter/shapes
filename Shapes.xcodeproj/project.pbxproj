@@ -26,6 +26,14 @@
 		591852CB1EA1345F00424619 /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591852CA1EA1345F00424619 /* Explore.storyboard */; };
 		591852CD1EA1348300424619 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591852CC1EA1348300424619 /* HomeViewController.swift */; };
 		591852CF1EA1348E00424619 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591852CE1EA1348E00424619 /* ExploreViewController.swift */; };
+		597055381EA7D779005561D3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597055371EA7D779005561D3 /* Triangle.swift */; };
+		5970553B1EA7E3E1005561D3 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5970553A1EA7E3E1005561D3 /* Square.swift */; };
+		5970553D1EA8FCA9005561D3 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5970553C1EA8FCA9005561D3 /* UIColor.swift */; };
+		5970553F1EA92318005561D3 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5970553E1EA92318005561D3 /* UIImageView.swift */; };
+		59B491931EA696DB00932A5C /* HomeNavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59B491921EA696DB00932A5C /* HomeNavBar.xib */; };
+		59B491951EA696EA00932A5C /* HomeNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B491941EA696EA00932A5C /* HomeNavBar.swift */; };
+		59B491971EA6A4D600932A5C /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B491961EA6A4D600932A5C /* XibView.swift */; };
+		59B4919A1EA7C7EE00932A5C /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B491991EA7C7EE00932A5C /* Shape.swift */; };
 		9DBA60FCE8A39AC9037D62AE /* Pods_ShapesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAC5EAFCC4B443D7A17EE47 /* Pods_ShapesTests.framework */; };
 		FD0530044E7B78A8AB19E8DC /* Pods_Shapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E50C67B4D36AFFCC7406E /* Pods_Shapes.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +85,14 @@
 		591852CA1EA1345F00424619 /* Explore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
 		591852CC1EA1348300424619 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		591852CE1EA1348E00424619 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		597055371EA7D779005561D3 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		5970553A1EA7E3E1005561D3 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		5970553C1EA8FCA9005561D3 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5970553E1EA92318005561D3 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		59B491921EA696DB00932A5C /* HomeNavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeNavBar.xib; sourceTree = "<group>"; };
+		59B491941EA696EA00932A5C /* HomeNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavBar.swift; sourceTree = "<group>"; };
+		59B491961EA6A4D600932A5C /* XibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		59B491991EA7C7EE00932A5C /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		892B7B38848C02F925891640 /* Pods-ShapesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesTests/Pods-ShapesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DCB9AE8B4EF34D254F24F1A /* Pods-ShapesTests.analyze.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesTests.analyze.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesTests/Pods-ShapesTests.analyze.xcconfig"; sourceTree = "<group>"; };
 		9A8A8F8701663C286A06A9D4 /* Pods-ShapesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesUITests/Pods-ShapesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +141,7 @@
 		591804E31EA174B900310104 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				59B491981EA7C7D400932A5C /* Shapes */,
 				591804E41EA174C300310104 /* Account */,
 			);
 			name = Models;
@@ -143,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				591804EC1EA17DF500310104 /* DateFormatter.swift */,
+				5970553C1EA8FCA9005561D3 /* UIColor.swift */,
+				5970553E1EA92318005561D3 /* UIImageView.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -210,6 +229,8 @@
 				591852C01EA12F2D00424619 /* Main */,
 				591852C61EA1326A00424619 /* Home */,
 				591852C71EA1327600424619 /* Explore */,
+				597055401EA94513005561D3 /* Login */,
+				597055411EA94521005561D3 /* Register */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -236,6 +257,7 @@
 		591852C61EA1326A00424619 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				59B491911EA696C500932A5C /* NavBar */,
 				591852C81EA1345400424619 /* Home.storyboard */,
 				591852CC1EA1348300424619 /* HomeViewController.swift */,
 			);
@@ -267,6 +289,36 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		597055361EA7D76A005561D3 /* 3-Sided */ = {
+			isa = PBXGroup;
+			children = (
+				597055371EA7D779005561D3 /* Triangle.swift */,
+			);
+			name = "3-Sided";
+			sourceTree = "<group>";
+		};
+		597055391EA7DEAA005561D3 /* 4-Sided */ = {
+			isa = PBXGroup;
+			children = (
+				5970553A1EA7E3E1005561D3 /* Square.swift */,
+			);
+			name = "4-Sided";
+			sourceTree = "<group>";
+		};
+		597055401EA94513005561D3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		597055411EA94521005561D3 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
 		59B4918B1EA276E400932A5C /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,8 +330,28 @@
 		59B491901EA683C600932A5C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				59B491961EA6A4D600932A5C /* XibView.swift */,
 			);
 			name = Components;
+			sourceTree = "<group>";
+		};
+		59B491911EA696C500932A5C /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				59B491921EA696DB00932A5C /* HomeNavBar.xib */,
+				59B491941EA696EA00932A5C /* HomeNavBar.swift */,
+			);
+			name = NavBar;
+			sourceTree = "<group>";
+		};
+		59B491981EA7C7D400932A5C /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				59B491991EA7C7EE00932A5C /* Shape.swift */,
+				597055361EA7D76A005561D3 /* 3-Sided */,
+				597055391EA7DEAA005561D3 /* 4-Sided */,
+			);
+			name = Shapes;
 			sourceTree = "<group>";
 		};
 		59DA2FB21EA138A100174266 /* LaunchScreen */ = {
@@ -440,6 +512,7 @@
 				591852991EA10F4800424619 /* Assets.xcassets in Resources */,
 				591852CB1EA1345F00424619 /* Explore.storyboard in Resources */,
 				591852971EA10F4800424619 /* Main.storyboard in Resources */,
+				59B491931EA696DB00932A5C /* HomeNavBar.xib in Resources */,
 				591852C91EA1345400424619 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,13 +693,20 @@
 				591852C51EA130DB00424619 /* Constants.swift in Sources */,
 				591804E61EA174CE00310104 /* Account.swift in Sources */,
 				591804EA1EA1784A00310104 /* Constants_Errors.swift in Sources */,
+				59B4919A1EA7C7EE00932A5C /* Shape.swift in Sources */,
 				591804E21EA1742C00310104 /* AccountLoginEndpoints.swift in Sources */,
 				591852C21EA12FF200424619 /* MainTabBarViewController.swift in Sources */,
+				5970553D1EA8FCA9005561D3 /* UIColor.swift in Sources */,
 				591852901EA10F4800424619 /* AppDelegate.swift in Sources */,
 				591804E81EA1753200310104 /* Address.swift in Sources */,
+				5970553B1EA7E3E1005561D3 /* Square.swift in Sources */,
+				5970553F1EA92318005561D3 /* UIImageView.swift in Sources */,
 				591852CF1EA1348E00424619 /* ExploreViewController.swift in Sources */,
 				591804ED1EA17DF500310104 /* DateFormatter.swift in Sources */,
+				59B491971EA6A4D600932A5C /* XibView.swift in Sources */,
 				591804DF1EA16ED200310104 /* Constants_APIs.swift in Sources */,
+				597055381EA7D779005561D3 /* Triangle.swift in Sources */,
+				59B491951EA696EA00932A5C /* HomeNavBar.swift in Sources */,
 				591852CD1EA1348300424619 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,13 +10,17 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
+    @IBOutlet var logInIcon: UIImageView!
+    @IBOutlet var registerIcon: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-//        self.navigationItem.title = "Shapes"
-//        self.navigationI
+        self.navigationItem.titleView = HomeNavBar()
+        
+        logInIcon.setTint(color: Constants.ColorScheme.primary)
+        registerIcon.setTint(color: Constants.ColorScheme.primary)
         
 //        do {
 //            try AccountLoginEndpoints.impl.login(username: "Test", password: "Test", onCompletion: { (account) in }, onError: { (error) in })
