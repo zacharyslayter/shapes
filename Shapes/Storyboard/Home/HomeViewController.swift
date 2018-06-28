@@ -15,10 +15,8 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         self.navigationItem.titleView = HomeNavBar()
-//        self.navigationItem.titleView
         
         logInIcon.setTint(color: Constants.ColorScheme.primary)
         registerIcon.setTint(color: Constants.ColorScheme.primary)
@@ -28,14 +26,11 @@ class HomeViewController: UIViewController {
 //        } catch {
 //            print("caught exception)")
 //        }
+    
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
-
-    
-    
     
 }
