@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 extension UIImageView {
+    
     func setTint(color: UIColor) {
         if self.image == nil {
             return
@@ -18,4 +19,5 @@ extension UIImageView {
         self.tintColor = color
         self.image = self.image!.withRenderingMode(.alwaysTemplate)
     }
+    
 }

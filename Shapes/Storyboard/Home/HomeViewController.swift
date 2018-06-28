@@ -18,6 +18,7 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.navigationItem.titleView = HomeNavBar()
+//        self.navigationItem.titleView
         
         logInIcon.setTint(color: Constants.ColorScheme.primary)
         registerIcon.setTint(color: Constants.ColorScheme.primary)

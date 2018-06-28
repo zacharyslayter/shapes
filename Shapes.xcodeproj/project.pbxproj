@@ -8,32 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		23EF34E5483D065589A64C28 /* Pods_ShapesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A350A36970C694FABD769130 /* Pods_ShapesUITests.framework */; };
-		591804DF1EA16ED200310104 /* Constants_APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591804DE1EA16ED200310104 /* Constants_APIs.swift */; };
-		591804E21EA1742C00310104 /* AccountLoginEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591804E11EA1742C00310104 /* AccountLoginEndpoints.swift */; };
-		591804E61EA174CE00310104 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591804E51EA174CE00310104 /* Account.swift */; };
-		591804E81EA1753200310104 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591804E71EA1753200310104 /* Address.swift */; };
-		591804EA1EA1784A00310104 /* Constants_Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591804E91EA1784A00310104 /* Constants_Errors.swift */; };
-		591804ED1EA17DF500310104 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591804EC1EA17DF500310104 /* DateFormatter.swift */; };
-		591852901EA10F4800424619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5918528F1EA10F4800424619 /* AppDelegate.swift */; };
-		591852971EA10F4800424619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591852951EA10F4800424619 /* Main.storyboard */; };
-		591852991EA10F4800424619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591852981EA10F4800424619 /* Assets.xcassets */; };
-		5918529C1EA10F4800424619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5918529A1EA10F4800424619 /* LaunchScreen.storyboard */; };
 		591852A71EA10F4800424619 /* ShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591852A61EA10F4800424619 /* ShapesTests.swift */; };
 		591852B21EA10F4800424619 /* ShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591852B11EA10F4800424619 /* ShapesUITests.swift */; };
-		591852C21EA12FF200424619 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591852C11EA12FF200424619 /* MainTabBarViewController.swift */; };
-		591852C51EA130DB00424619 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591852C41EA130DB00424619 /* Constants.swift */; };
-		591852C91EA1345400424619 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591852C81EA1345400424619 /* Home.storyboard */; };
-		591852CB1EA1345F00424619 /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591852CA1EA1345F00424619 /* Explore.storyboard */; };
-		591852CD1EA1348300424619 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591852CC1EA1348300424619 /* HomeViewController.swift */; };
-		591852CF1EA1348E00424619 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591852CE1EA1348E00424619 /* ExploreViewController.swift */; };
-		597055381EA7D779005561D3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597055371EA7D779005561D3 /* Triangle.swift */; };
-		5970553B1EA7E3E1005561D3 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5970553A1EA7E3E1005561D3 /* Square.swift */; };
-		5970553D1EA8FCA9005561D3 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5970553C1EA8FCA9005561D3 /* UIColor.swift */; };
-		5970553F1EA92318005561D3 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5970553E1EA92318005561D3 /* UIImageView.swift */; };
-		59B491931EA696DB00932A5C /* HomeNavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59B491921EA696DB00932A5C /* HomeNavBar.xib */; };
-		59B491951EA696EA00932A5C /* HomeNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B491941EA696EA00932A5C /* HomeNavBar.swift */; };
-		59B491971EA6A4D600932A5C /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B491961EA6A4D600932A5C /* XibView.swift */; };
-		59B4919A1EA7C7EE00932A5C /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B491991EA7C7EE00932A5C /* Shape.swift */; };
+		5997C2D6203E05AC003AA57B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2D5203E05AC003AA57B /* AppDelegate.swift */; };
+		5997C2DA203E05BB003AA57B /* Constants_Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2D7203E05BB003AA57B /* Constants_Errors.swift */; };
+		5997C2DB203E05BB003AA57B /* Constants_APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2D8203E05BB003AA57B /* Constants_APIs.swift */; };
+		5997C2DC203E05BB003AA57B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2D9203E05BB003AA57B /* Constants.swift */; };
+		5997C2DE203E05CB003AA57B /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2DD203E05CB003AA57B /* XibView.swift */; };
+		5997C2E2203E05DA003AA57B /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2DF203E05DA003AA57B /* DateFormatter.swift */; };
+		5997C2E3203E05DA003AA57B /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2E0203E05DA003AA57B /* UIImageView.swift */; };
+		5997C2E4203E05DA003AA57B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2E1203E05DA003AA57B /* UIColor.swift */; };
+		5997C2E6203E05E8003AA57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5997C2E5203E05E8003AA57B /* Assets.xcassets */; };
+		5997C2E8203E05F3003AA57B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5997C2E7203E05F3003AA57B /* LaunchScreen.storyboard */; };
+		5997C2EB203E0605003AA57B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2E9203E0605003AA57B /* MainTabBarViewController.swift */; };
+		5997C2EC203E0605003AA57B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5997C2EA203E0605003AA57B /* Main.storyboard */; };
+		5997C2EF203E061B003AA57B /* HomeNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2ED203E061B003AA57B /* HomeNavBar.swift */; };
+		5997C2F0203E061B003AA57B /* HomeNavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5997C2EE203E061B003AA57B /* HomeNavBar.xib */; };
+		5997C2F3203E062C003AA57B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2F1203E062B003AA57B /* HomeViewController.swift */; };
+		5997C2F4203E062C003AA57B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5997C2F2203E062B003AA57B /* Home.storyboard */; };
+		5997C2F7203E063B003AA57B /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5997C2F5203E063B003AA57B /* Explore.storyboard */; };
+		5997C2F8203E063B003AA57B /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2F6203E063B003AA57B /* ExploreViewController.swift */; };
+		5997C2FA203E0657003AA57B /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2F9203E0657003AA57B /* Shape.swift */; };
+		5997C2FC203E0696003AA57B /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2FB203E0696003AA57B /* Triangle.swift */; };
+		5997C2FE203E06A2003AA57B /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2FD203E06A2003AA57B /* Square.swift */; };
+		5997C300203E06B0003AA57B /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C2FF203E06B0003AA57B /* Address.swift */; };
+		5997C302203E06BC003AA57B /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C301203E06BC003AA57B /* Account.swift */; };
+		5997C304203E06CA003AA57B /* AccountLoginEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997C303203E06CA003AA57B /* AccountLoginEndpoints.swift */; };
 		9DBA60FCE8A39AC9037D62AE /* Pods_ShapesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAC5EAFCC4B443D7A17EE47 /* Pods_ShapesTests.framework */; };
 		FD0530044E7B78A8AB19E8DC /* Pods_Shapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E50C67B4D36AFFCC7406E /* Pods_Shapes.framework */; };
 /* End PBXBuildFile section */
@@ -61,38 +61,38 @@
 		42CB82B1D3F65AFBC12D3998 /* Pods-Shapes.analyze.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shapes.analyze.xcconfig"; path = "Pods/Target Support Files/Pods-Shapes/Pods-Shapes.analyze.xcconfig"; sourceTree = "<group>"; };
 		4CAC5EAFCC4B443D7A17EE47 /* Pods_ShapesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShapesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F7613A84DB7F23F4624EE4 /* Pods-ShapesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesUITests/Pods-ShapesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		591804DE1EA16ED200310104 /* Constants_APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants_APIs.swift; sourceTree = "<group>"; };
-		591804E11EA1742C00310104 /* AccountLoginEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountLoginEndpoints.swift; sourceTree = "<group>"; };
-		591804E51EA174CE00310104 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
-		591804E71EA1753200310104 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
-		591804E91EA1784A00310104 /* Constants_Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants_Errors.swift; sourceTree = "<group>"; };
-		591804EC1EA17DF500310104 /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		5918528C1EA10F4800424619 /* Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5918528F1EA10F4800424619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		591852961EA10F4800424619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		591852981EA10F4800424619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5918529B1EA10F4800424619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5918529D1EA10F4800424619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591852A21EA10F4800424619 /* ShapesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591852A61EA10F4800424619 /* ShapesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTests.swift; sourceTree = "<group>"; };
 		591852A81EA10F4800424619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591852AD1EA10F4800424619 /* ShapesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591852B11EA10F4800424619 /* ShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesUITests.swift; sourceTree = "<group>"; };
 		591852B31EA10F4800424619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		591852C11EA12FF200424619 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
-		591852C41EA130DB00424619 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		591852C81EA1345400424619 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		591852CA1EA1345F00424619 /* Explore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
-		591852CC1EA1348300424619 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		591852CE1EA1348E00424619 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
-		597055371EA7D779005561D3 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
-		5970553A1EA7E3E1005561D3 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
-		5970553C1EA8FCA9005561D3 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		5970553E1EA92318005561D3 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
-		59B491921EA696DB00932A5C /* HomeNavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeNavBar.xib; sourceTree = "<group>"; };
-		59B491941EA696EA00932A5C /* HomeNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavBar.swift; sourceTree = "<group>"; };
-		59B491961EA6A4D600932A5C /* XibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
-		59B491991EA7C7EE00932A5C /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		5997C2D3203E059C003AA57B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
+		5997C2D5203E05AC003AA57B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
+		5997C2D7203E05BB003AA57B /* Constants_Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants_Errors.swift; path = Constants/Constants_Errors.swift; sourceTree = "<group>"; };
+		5997C2D8203E05BB003AA57B /* Constants_APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants_APIs.swift; path = Constants/Constants_APIs.swift; sourceTree = "<group>"; };
+		5997C2D9203E05BB003AA57B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Constants/Constants.swift; sourceTree = "<group>"; };
+		5997C2DD203E05CB003AA57B /* XibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XibView.swift; path = Components/XibView.swift; sourceTree = "<group>"; };
+		5997C2DF203E05DA003AA57B /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = Extensions/DateFormatter.swift; sourceTree = "<group>"; };
+		5997C2E0203E05DA003AA57B /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = Extensions/UIImageView.swift; sourceTree = "<group>"; };
+		5997C2E1203E05DA003AA57B /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Extensions/UIColor.swift; sourceTree = "<group>"; };
+		5997C2E5203E05E8003AA57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		5997C2E7203E05F3003AA57B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboard/LaunchScreen/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5997C2E9203E0605003AA57B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarViewController.swift; path = Storyboard/Main/MainTabBarViewController.swift; sourceTree = "<group>"; };
+		5997C2EA203E0605003AA57B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboard/Main/Main.storyboard; sourceTree = "<group>"; };
+		5997C2ED203E061B003AA57B /* HomeNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeNavBar.swift; path = Storyboard/Home/NavBar/HomeNavBar.swift; sourceTree = "<group>"; };
+		5997C2EE203E061B003AA57B /* HomeNavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeNavBar.xib; path = Storyboard/Home/NavBar/HomeNavBar.xib; sourceTree = "<group>"; };
+		5997C2F1203E062B003AA57B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Storyboard/Home/HomeViewController.swift; sourceTree = "<group>"; };
+		5997C2F2203E062B003AA57B /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboard/Home/Home.storyboard; sourceTree = "<group>"; };
+		5997C2F5203E063B003AA57B /* Explore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Explore.storyboard; path = Storyboard/Explore/Explore.storyboard; sourceTree = "<group>"; };
+		5997C2F6203E063B003AA57B /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreViewController.swift; path = Storyboard/Explore/ExploreViewController.swift; sourceTree = "<group>"; };
+		5997C2F9203E0657003AA57B /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = Models/Shapes/Shape.swift; sourceTree = "<group>"; };
+		5997C2FB203E0696003AA57B /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Triangle.swift; path = "Models/Shapes/3-Sided/Triangle.swift"; sourceTree = "<group>"; };
+		5997C2FD203E06A2003AA57B /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Square.swift; path = "Models/Shapes/4-Sided/Square.swift"; sourceTree = "<group>"; };
+		5997C2FF203E06B0003AA57B /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Models/Account/Components/Address.swift; sourceTree = "<group>"; };
+		5997C301203E06BC003AA57B /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Account.swift; path = Models/Account/Account.swift; sourceTree = "<group>"; };
+		5997C303203E06CA003AA57B /* AccountLoginEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountLoginEndpoints.swift; path = APIs/Account/AccountLoginEndpoints.swift; sourceTree = "<group>"; };
 		892B7B38848C02F925891640 /* Pods-ShapesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesTests/Pods-ShapesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DCB9AE8B4EF34D254F24F1A /* Pods-ShapesTests.analyze.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesTests.analyze.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesTests/Pods-ShapesTests.analyze.xcconfig"; sourceTree = "<group>"; };
 		9A8A8F8701663C286A06A9D4 /* Pods-ShapesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShapesUITests/Pods-ShapesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		591804E01EA1740C00310104 /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				591804E11EA1742C00310104 /* AccountLoginEndpoints.swift */,
+				5997C303203E06CA003AA57B /* AccountLoginEndpoints.swift */,
 			);
 			name = Account;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				59B4918B1EA276E400932A5C /* Components */,
-				591804E51EA174CE00310104 /* Account.swift */,
+				5997C301203E06BC003AA57B /* Account.swift */,
 			);
 			name = Account;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		591804EB1EA17DE500310104 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				591804EC1EA17DF500310104 /* DateFormatter.swift */,
-				5970553C1EA8FCA9005561D3 /* UIColor.swift */,
-				5970553E1EA92318005561D3 /* UIImageView.swift */,
+				5997C2DF203E05DA003AA57B /* DateFormatter.swift */,
+				5997C2E1203E05DA003AA57B /* UIColor.swift */,
+				5997C2E0203E05DA003AA57B /* UIImageView.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -191,7 +191,7 @@
 		5918528E1EA10F4800424619 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
-				5918528F1EA10F4800424619 /* AppDelegate.swift */,
+				5930607F203CBC8900F7971D /* App */,
 				591852C31EA130BB00424619 /* Constants */,
 				59B491901EA683C600932A5C /* Components */,
 				591804EB1EA17DE500310104 /* Extensions */,
@@ -199,7 +199,6 @@
 				591852BF1EA12F0D00424619 /* Storyboard */,
 				591804E31EA174B900310104 /* Models */,
 				591852D01EA1358500424619 /* APIs */,
-				5918529D1EA10F4800424619 /* Info.plist */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -238,8 +237,8 @@
 		591852C01EA12F2D00424619 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				591852951EA10F4800424619 /* Main.storyboard */,
-				591852C11EA12FF200424619 /* MainTabBarViewController.swift */,
+				5997C2EA203E0605003AA57B /* Main.storyboard */,
+				5997C2E9203E0605003AA57B /* MainTabBarViewController.swift */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -247,9 +246,9 @@
 		591852C31EA130BB00424619 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				591852C41EA130DB00424619 /* Constants.swift */,
-				591804DE1EA16ED200310104 /* Constants_APIs.swift */,
-				591804E91EA1784A00310104 /* Constants_Errors.swift */,
+				5997C2D8203E05BB003AA57B /* Constants_APIs.swift */,
+				5997C2D7203E05BB003AA57B /* Constants_Errors.swift */,
+				5997C2D9203E05BB003AA57B /* Constants.swift */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -258,8 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				59B491911EA696C500932A5C /* NavBar */,
-				591852C81EA1345400424619 /* Home.storyboard */,
-				591852CC1EA1348300424619 /* HomeViewController.swift */,
+				5997C2F2203E062B003AA57B /* Home.storyboard */,
+				5997C2F1203E062B003AA57B /* HomeViewController.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -267,8 +266,8 @@
 		591852C71EA1327600424619 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				591852CA1EA1345F00424619 /* Explore.storyboard */,
-				591852CE1EA1348E00424619 /* ExploreViewController.swift */,
+				5997C2F5203E063B003AA57B /* Explore.storyboard */,
+				5997C2F6203E063B003AA57B /* ExploreViewController.swift */,
 			);
 			name = Explore;
 			sourceTree = "<group>";
@@ -284,15 +283,24 @@
 		591852D11EA136AA00424619 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				591852981EA10F4800424619 /* Assets.xcassets */,
+				5997C2E5203E05E8003AA57B /* Assets.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		5930607F203CBC8900F7971D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5997C2D3203E059C003AA57B /* Info.plist */,
+				5997C2D5203E05AC003AA57B /* AppDelegate.swift */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 		597055361EA7D76A005561D3 /* 3-Sided */ = {
 			isa = PBXGroup;
 			children = (
-				597055371EA7D779005561D3 /* Triangle.swift */,
+				5997C2FB203E0696003AA57B /* Triangle.swift */,
 			);
 			name = "3-Sided";
 			sourceTree = "<group>";
@@ -300,7 +308,7 @@
 		597055391EA7DEAA005561D3 /* 4-Sided */ = {
 			isa = PBXGroup;
 			children = (
-				5970553A1EA7E3E1005561D3 /* Square.swift */,
+				5997C2FD203E06A2003AA57B /* Square.swift */,
 			);
 			name = "4-Sided";
 			sourceTree = "<group>";
@@ -322,7 +330,7 @@
 		59B4918B1EA276E400932A5C /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				591804E71EA1753200310104 /* Address.swift */,
+				5997C2FF203E06B0003AA57B /* Address.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -330,7 +338,7 @@
 		59B491901EA683C600932A5C /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				59B491961EA6A4D600932A5C /* XibView.swift */,
+				5997C2DD203E05CB003AA57B /* XibView.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -338,8 +346,8 @@
 		59B491911EA696C500932A5C /* NavBar */ = {
 			isa = PBXGroup;
 			children = (
-				59B491921EA696DB00932A5C /* HomeNavBar.xib */,
-				59B491941EA696EA00932A5C /* HomeNavBar.swift */,
+				5997C2ED203E061B003AA57B /* HomeNavBar.swift */,
+				5997C2EE203E061B003AA57B /* HomeNavBar.xib */,
 			);
 			name = NavBar;
 			sourceTree = "<group>";
@@ -347,7 +355,7 @@
 		59B491981EA7C7D400932A5C /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
-				59B491991EA7C7EE00932A5C /* Shape.swift */,
+				5997C2F9203E0657003AA57B /* Shape.swift */,
 				597055361EA7D76A005561D3 /* 3-Sided */,
 				597055391EA7DEAA005561D3 /* 4-Sided */,
 			);
@@ -357,7 +365,7 @@
 		59DA2FB21EA138A100174266 /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
-				5918529A1EA10F4800424619 /* LaunchScreen.storyboard */,
+				5997C2E7203E05F3003AA57B /* LaunchScreen.storyboard */,
 			);
 			name = LaunchScreen;
 			sourceTree = "<group>";
@@ -461,23 +469,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Credera;
 				TargetAttributes = {
 					5918528B1EA10F4800424619 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = HPYS5PBF55;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					591852A11EA10F4800424619 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = HPYS5PBF55;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5918528B1EA10F4800424619;
 					};
 					591852AC1EA10F4800424619 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = HPYS5PBF55;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5918528B1EA10F4800424619;
 					};
@@ -508,12 +519,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5918529C1EA10F4800424619 /* LaunchScreen.storyboard in Resources */,
-				591852991EA10F4800424619 /* Assets.xcassets in Resources */,
-				591852CB1EA1345F00424619 /* Explore.storyboard in Resources */,
-				591852971EA10F4800424619 /* Main.storyboard in Resources */,
-				59B491931EA696DB00932A5C /* HomeNavBar.xib in Resources */,
-				591852C91EA1345400424619 /* Home.storyboard in Resources */,
+				5997C2F7203E063B003AA57B /* Explore.storyboard in Resources */,
+				5997C2E8203E05F3003AA57B /* LaunchScreen.storyboard in Resources */,
+				5997C2F0203E061B003AA57B /* HomeNavBar.xib in Resources */,
+				5997C2EC203E0605003AA57B /* Main.storyboard in Resources */,
+				5997C2E6203E05E8003AA57B /* Assets.xcassets in Resources */,
+				5997C2F4203E062C003AA57B /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,13 +551,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShapesUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		53F83E322D26FD9074811584 /* [CP] Embed Pods Frameworks */ = {
@@ -600,13 +614,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShapesTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9FC6D50E91F37CF7F4B3672D /* [CP] Embed Pods Frameworks */ = {
@@ -615,9 +632,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shapes/Pods-Shapes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -630,13 +652,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shapes-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C06D9B6A2A4DBCDB5E34B8D9 /* [CP] Copy Pods Resources */ = {
@@ -690,24 +715,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591852C51EA130DB00424619 /* Constants.swift in Sources */,
-				591804E61EA174CE00310104 /* Account.swift in Sources */,
-				591804EA1EA1784A00310104 /* Constants_Errors.swift in Sources */,
-				59B4919A1EA7C7EE00932A5C /* Shape.swift in Sources */,
-				591804E21EA1742C00310104 /* AccountLoginEndpoints.swift in Sources */,
-				591852C21EA12FF200424619 /* MainTabBarViewController.swift in Sources */,
-				5970553D1EA8FCA9005561D3 /* UIColor.swift in Sources */,
-				591852901EA10F4800424619 /* AppDelegate.swift in Sources */,
-				591804E81EA1753200310104 /* Address.swift in Sources */,
-				5970553B1EA7E3E1005561D3 /* Square.swift in Sources */,
-				5970553F1EA92318005561D3 /* UIImageView.swift in Sources */,
-				591852CF1EA1348E00424619 /* ExploreViewController.swift in Sources */,
-				591804ED1EA17DF500310104 /* DateFormatter.swift in Sources */,
-				59B491971EA6A4D600932A5C /* XibView.swift in Sources */,
-				591804DF1EA16ED200310104 /* Constants_APIs.swift in Sources */,
-				597055381EA7D779005561D3 /* Triangle.swift in Sources */,
-				59B491951EA696EA00932A5C /* HomeNavBar.swift in Sources */,
-				591852CD1EA1348300424619 /* HomeViewController.swift in Sources */,
+				5997C2EF203E061B003AA57B /* HomeNavBar.swift in Sources */,
+				5997C2DE203E05CB003AA57B /* XibView.swift in Sources */,
+				5997C2F3203E062C003AA57B /* HomeViewController.swift in Sources */,
+				5997C304203E06CA003AA57B /* AccountLoginEndpoints.swift in Sources */,
+				5997C2FC203E0696003AA57B /* Triangle.swift in Sources */,
+				5997C2E4203E05DA003AA57B /* UIColor.swift in Sources */,
+				5997C300203E06B0003AA57B /* Address.swift in Sources */,
+				5997C2DA203E05BB003AA57B /* Constants_Errors.swift in Sources */,
+				5997C2D6203E05AC003AA57B /* AppDelegate.swift in Sources */,
+				5997C2DB203E05BB003AA57B /* Constants_APIs.swift in Sources */,
+				5997C2E2203E05DA003AA57B /* DateFormatter.swift in Sources */,
+				5997C2EB203E0605003AA57B /* MainTabBarViewController.swift in Sources */,
+				5997C2DC203E05BB003AA57B /* Constants.swift in Sources */,
+				5997C2F8203E063B003AA57B /* ExploreViewController.swift in Sources */,
+				5997C2FE203E06A2003AA57B /* Square.swift in Sources */,
+				5997C2E3203E05DA003AA57B /* UIImageView.swift in Sources */,
+				5997C302203E06BC003AA57B /* Account.swift in Sources */,
+				5997C2FA203E0657003AA57B /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -742,25 +767,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		591852951EA10F4800424619 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				591852961EA10F4800424619 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5918529A1EA10F4800424619 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5918529B1EA10F4800424619 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		591852B41EA10F4800424619 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -772,7 +778,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -780,7 +788,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -822,7 +834,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -830,7 +844,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -861,11 +879,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HPYS5PBF55;
-				INFOPLIST_FILE = Shapes/Info.plist;
+				INFOPLIST_FILE = Shapes/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.credera.Shapes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -875,11 +894,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HPYS5PBF55;
-				INFOPLIST_FILE = Shapes/Info.plist;
+				INFOPLIST_FILE = Shapes/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.credera.Shapes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -894,7 +914,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.credera.ShapesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shapes.app/Shapes";
 			};
 			name = Debug;
@@ -910,7 +931,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.credera.ShapesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shapes.app/Shapes";
 			};
 			name = Release;
@@ -925,7 +947,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.credera.ShapesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Shapes;
 			};
 			name = Debug;
@@ -940,7 +963,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.credera.ShapesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Shapes;
 			};
 			name = Release;
@@ -955,7 +979,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -963,7 +989,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1001,11 +1031,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HPYS5PBF55;
-				INFOPLIST_FILE = Shapes/Info.plist;
+				INFOPLIST_FILE = Shapes/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.credera.Shapes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Analyze;
 		};
@@ -1020,7 +1051,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.credera.ShapesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shapes.app/Shapes";
 			};
 			name = Analyze;
@@ -1035,7 +1067,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.credera.ShapesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Shapes;
 			};
 			name = Analyze;

@@ -31,7 +31,7 @@ class Address {
             // therefore I'm converting this int to a String and adding in 
             // potentially lost leading 0s.
             zip = String(zipValue)
-            while zip.characters.count < 5 && zip.characters.count > 0 {
+            while zip.count < 5 && zip.count > 0 {
                 zip = "0".appending(zip)
             }
 

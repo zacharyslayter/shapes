@@ -72,7 +72,3 @@ class XibView: UIView {
     }
     
 }
-
-
-
-

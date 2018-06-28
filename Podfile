@@ -2,8 +2,8 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'Shapes' do
-  pod 'Alamofire', '~> 4.4'
-  pod 'SwiftyJSON', '~> 3.1.4'
+    pod 'Alamofire', '~> 4.6.0'
+    pod 'SwiftyJSON', '~> 4.0.0'
 
   target 'ShapesTests' do
     inherit! :search_paths
