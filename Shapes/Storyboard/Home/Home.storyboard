@@ -43,6 +43,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="loginBtn_Clicked:" destination="Uro-d5-MvO" eventType="touchUpInside" id="ZFr-cX-tTN"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-Login" translatesAutoresizingMaskIntoConstraints="NO" id="dAe-Pl-nRh">
                                         <rect key="frame" x="79.5" y="12.5" width="35" height="35"/>

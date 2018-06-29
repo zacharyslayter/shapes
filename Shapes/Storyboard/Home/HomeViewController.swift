@@ -33,4 +33,10 @@ class HomeViewController: UIViewController {
         super.viewWillAppear(animated)
     }
     
+    @IBAction func loginBtn_Clicked(_ sender: UIButton) {
+        let loginViewController = UIStoryboard(name: "Login", bundle: nil).instantiateInitialViewController()
+        if loginViewController != nil {
+            navigationController?.pushViewController(loginViewController!, animated: true)
+        }
+    }
 }
